@@ -1,5 +1,6 @@
 {
-  "name": "http://rowsim.github.io/diary",
+  "homepage": "http://rowsim.github.io/diary",
+  "name": "diary",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
