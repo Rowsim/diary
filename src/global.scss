@@ -1,0 +1,30 @@
+.rainbow-animation {
+  background: linear-gradient(
+    225deg,
+    #fe7474 10%,
+    rgb(255, 178, 83) 27%,
+    rgb(161, 255, 126) 43%,
+    rgb(120, 187, 255) 66%,
+    rgb(255, 99, 182) 80%,
+    #fe7474 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: rainbow_animation 20s linear infinite;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  animation-name: rainbow_animation;
+  background-size: 400% auto;
+}
+
+@keyframes rainbow_animation {
+  to {
+    background-position: 400% center;
+  }
+}

@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+@import '../../global.scss';
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  font-family: 'Bubblegum Sans', cursive;
+  font-size: 36px;
+
+  &__links {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+    a {
+      margin: 0 12px;
+    }
+
+    &--github {
+        fill: white;
+
+        svg {
+            display: block;
+        }
+    }
+  }
+}
