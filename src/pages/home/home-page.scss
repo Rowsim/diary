@@ -1,0 +1,17 @@
+.home {
+    height: 100%;
+    
+  &__description {
+      display: flex;
+      width: 100%;
+      height: 100%;
+      justify-content: center;
+      align-items: center;
+  }
+
+  &__name {
+    position: absolute;
+    bottom: 1%;
+    right: 10%;
+  }
+}
