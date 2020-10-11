@@ -1,1 +1,0 @@
-{"version":3,"sources":["pages/home/home-page.tsx"],"names":["HomePage"],"mappings":"+FAAA,2BAIeA,UAFE,kBAAM","file":"static/js/3.c0f73ce6.chunk.js","sourcesContent":["import React from \"react\";\r\n\r\nconst HomePage = () => <div>Home page loaded!</div>;\r\n\r\nexport default HomePage;\r\n"],"sourceRoot":""}
